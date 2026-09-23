@@ -1,0 +1,26 @@
+{
+  "name": "from-pixels-to-react",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:file": "tsc -b && vite build --mode file-day-1 && vite build --mode file-day-2 && vite build --mode file-day-3 && vite build --mode file-day-4 && vite build --mode file-day-5",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@revealjs/react": "^0.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "reveal.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
