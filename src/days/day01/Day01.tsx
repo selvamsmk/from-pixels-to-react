@@ -140,6 +140,13 @@ export function Day01() {
       <ContentSlide eyebrow="Look ahead" title="Where does interaction come from?" notes="Ask: We can describe and style a document. How does it change after a click? Leave the question open. Day 2 introduces the browser as a programmable environment and starts the route toward React. Timing: 1 minute.">
         <p className="statement">HTML gives structure.<br />CSS gives presentation.<br />Next: behaviour.</p>
       </ContentSlide>
+
+      <ContentSlide eyebrow="Keep going" title="Further Learning &amp; Practice" notes="Invite participants to choose one practice resource and one reference this week. Recommend MDN as the first technical reference; the games are useful for deliberate CSS practice. Keep this slide up during informal questions after Day 1. Timing: 1 minute.">
+        <div className="resource-groups">
+          <section><p className="column-label">INTERACTIVE PRACTICE</p><a href="https://flukeout.github.io/">CSS Diner <span>CSS selector practice</span></a><a href="https://flexboxfroggy.com/">Flexbox Froggy <span>game-based Flexbox</span></a><a href="https://cssgridgarden.com/">Grid Garden <span>game-based CSS Grid</span></a><a href="https://cssbattle.dev/">CSSBattle <span>recreate visual targets</span></a><a href="https://codepip.com/games/">Codepip Games <span>interactive HTML/CSS games</span></a></section>
+          <section><p className="column-label">REFERENCE &amp; FORMAL LEARNING</p><a href="https://developer.mozilla.org/">MDN Web Docs <span>primary web-platform reference</span></a><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development">MDN Learn <span>structured web learning</span></a><a href="https://www.w3schools.com/">W3Schools <span>beginner examples &amp; exercises</span></a><a href="https://web.dev/">web.dev <span>modern web guidance</span></a></section>
+        </div>
+      </ContentSlide>
     </DayDeck>
   )
 }
