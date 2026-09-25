@@ -109,6 +109,46 @@ JavaScript syntax and values
 - [Google Developers Blog — Better Web Templating with AngularJS 1.0](https://developers.googleblog.com/better-web-templating-with-angularjs-10/)
 - [React versions and initial public release](https://react.dev/versions)
 
-## Days 3–5
+## Day 3 — Why React?
+
+### Modern React learning
+
+- [React Learn](https://react.dev/learn) — Recommended starting point for modern React: components, JSX, props, state, events, and sharing state.
+- [Thinking in React](https://react.dev/learn/thinking-in-react) — A practical guide to breaking an interface into components and finding the right state.
+- [Writing Markup with JSX](https://react.dev/learn/writing-markup-with-jsx) — Explains why JSX is JavaScript syntax, rather than HTML.
+- [State: A Component’s Memory](https://react.dev/learn/state-a-components-memory) — The best follow-up to Day 3’s counter example and useState.
+- [Synchronizing with Effects](https://react.dev/learn/synchronizing-with-effects) — Use this after the session to understand Effects as synchronization with external systems.
+
+### Reference
+
+- [React API Reference](https://react.dev/reference/react) — Look up exact behavior of React APIs as needed.
+- [Component](https://react.dev/reference/react/Component) — Reference for class components and lifecycle methods; useful for understanding older React code.
+- [Preserving and Resetting State](https://react.dev/learn/preserving-and-resetting-state) — Explains the component identity and position ideas introduced in the reconciliation discussion.
+- [Reconciliation (legacy documentation)](https://legacy.reactjs.org/docs/reconciliation.html) — Historical reference for the high-level reconciliation model used in the session.
+
+### Historical context
+
+- [React versions](https://react.dev/versions) — Official version history, including React’s May 29, 2013 open-source release and the modern release timeline.
+- [React acknowledgements](https://react.dev/community/acknowledgements) — Credits Jordan Walke as React’s original creator.
+- [Why did we build React? (2013)](https://legacy.reactjs.org/blog/2013/06/05/why-react.html) — The original public rationale for React’s programming model.
+- [React v16.8: The One With Hooks](https://legacy.reactjs.org/blog/2019/02/06/react-v16.8.0.html) — Official Hooks release announcement.
+
+### Suggested Day 3 learning path
+
+    components + JSX
+    → props
+    → component state
+    → events
+    → rendering from state
+    → component identity
+    → Effects and external synchronization
+
+- **Learning the modern model** → React Learn
+- **Understanding the counter** → State: A Component’s Memory
+- **Looking up APIs** → React API Reference
+- **Reading class-based React code** → Component reference
+- **Understanding React’s history** → Versions and the original React posts
+
+## Days 4–5
 
 No external learning resources are currently listed in these slides. Add new course resources here as later days are developed.

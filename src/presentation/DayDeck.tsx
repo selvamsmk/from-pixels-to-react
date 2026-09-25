@@ -12,7 +12,7 @@ type DayDeckProps = PropsWithChildren<{ day: CourseDay; titleNotes?: string }>
 export function DayDeck({ day, titleNotes, children }: DayDeckProps) {
   return (
     <Deck
-      config={{ width: 1440, height: 900, hash: true, controls: true, progress: true, slideNumber: 'c/t', defaultTiming: 80, transition: 'slide', transitionSpeed: 'fast', backgroundTransition: 'fade', autoAnimateEasing: 'ease-out', autoAnimateDuration: 0.55, autoAnimateUnmatched: false, center: false, navigationMode: 'linear' }}
+      config={{ width: 1440, height: 900, hash: true, controls: true, progress: true, slideNumber: 'c/t', defaultTiming: 80, transition: 'slide', transitionSpeed: 'fast', backgroundTransition: 'fade', autoAnimateEasing: 'ease-out', autoAnimateDuration: 0.55, autoAnimateUnmatched: false, center: false, navigationMode: 'linear', keyboardCondition: (event: KeyboardEvent) => event.key.toLowerCase() === 's' || !((event.target as HTMLElement | null)?.closest?.('.live-react-demo')) }}
       plugins={[RevealHighlight, RevealNotes]}
     >
       <TitleSlide day={day.number} title={day.title} subtitle={day.summary} notes={titleNotes} />
